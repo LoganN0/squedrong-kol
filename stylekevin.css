@@ -1,0 +1,38 @@
+.main-contact{
+    text-align: left;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 40px;
+    background-color: rgba(206, 183, 183, 0.673);
+    border-radius: 7px;
+    box-shadow: 0px 12px 30px grey;
+}
+.titre1-contact{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Abril Fatface', sans-serif;
+}
+form{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+form>*{
+    margin-bottom: 7px;
+}
+.bouton-contact{
+    text-align: center;
+}
+.element-contact{
+    text-align: left;
+margin-left: 75px;
+}
+.main-a-propos{
+text-align: left;
+margin-left: 320px;
+margin-right: 220px;
+
+
+}

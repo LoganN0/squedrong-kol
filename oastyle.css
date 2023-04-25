@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.logo {
+    width:120px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 13%;
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    position: absolute;
+    right: 40%;
+    /* overflow: hidden; */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 9px;
+}
+
+.navbar {
+    margin-left: 25%;
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+}
+
+.navbar-apropos {
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+#blog-navbar {
+    color: blue;
+}
+
+main {
+    background-color: white;
+}
+
+   
+   
+
+
+
+.laptop {
+    display: flex;
+    margin:auto;
+    width: 800px;
+}
+.detailso1 {
+    
+    color: #d45574;
+    margin-left: 360px;
+    font-family: 'Abril FatFace';
+    
+    
+    
+}
+
+.oatext1 {
+    
+    text-align: justify;
+    margin-left: 360px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.details02 {
+    color: #3c0da4;
+    margin-left: 360px;
+    font-family: 'Abril FatFace';
+    
+}
+
+.oatext2 {
+    
+    text-align: justify;
+    margin-left: 360px;
+    font-size: 15px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.detailso3 {
+    color: #3c0da4;
+    margin-left: 360px;
+    font-family: 'Abril FatFace';
+    
+}
+
+.oatext3 {
+    text-align: justify;
+    margin-left: 360px;
+    font-size: 15px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.illuazor {
+    float: right;
+    width: 290px;
+    margin-right: 350px;
+   
+ }
+.proposoa {
+    display: flex;
+    float: left;
+    color: #d45574;
+    margin-left: 360px;
+    font-size: 30px; 
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+.oauteur {
+    float: left;
+    text-align: justify;
+    margin-left: 360px;
+    font-size: 12px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 10px;
+    border: 2px solid black ;
+    height: 2800px;
+    border-radius: 0px;
+   box-shadow: -1px -1px 13px rgb(156, 155, 155);
+    
+    
+}
+.MLT {
+    width: 140px;
+    margin-left: 200px;
+
+}
+.TLM {
+   
+    margin-left: 150px;
+    height: 2px;
+    width: 2px;
+    margin-top: 60px;
+}
+
+

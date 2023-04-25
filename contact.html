@@ -1,1 +1,52 @@
-{\rtf1}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylekevin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>Squedrong - Accueil</title>
+</head>
+<body>
+
+    <header>
+
+        <img src="images/logo.png" alt="Logo de Squedrong">
+
+        <nav>
+
+            <a href="/action_page.php" class="navbar" id="blog-navbar">BLOG</a>
+            <a href="/action_page.php" class="navbar">CV</a>
+            <a href="/action_page.php" class="navbar">A PROPOS</a>
+            <a href="/action_page.php" class="navbar">CONTACT</a>
+
+        </nav>
+
+    </header>
+    
+<main class="main-contact">
+<h1 class="titre1-contact">CONTACT</h1>
+<form action="mailto:votreemail@gmail.com">
+<label for="Prenom" class="element-contact">Prénom: <input type="text" minlength="2" maxlength="20" placeholder="Votre prénom" size="33px" required></label><br>
+<label for="Nom" class="element-contact">Nom: <input type="text" minlength="2" maxlength="20" placeholder="Votre nom" size="36px" required></label><br>
+<label for=Email" class="element-contact">Email: <input type="email" placeholder="Votre email" size="35px" required></label><br>
+<label for="Commentaires"><Textarea cols="40" rows="6" wrap="soft" placeholder="Ecrire un commentaire" required></Textarea></label> <br>
+</form>
+</main>
+<div class="bouton-contact">
+<button onclick="window.location.href='/action_page.php'">TWITTER</button>
+<button onclick="window.location.href='/action_page.php'">LINKEDIN</button>
+<button onclick="window.location.href='/action_page.php'">MEDIUM</button>
+</div>
+
+</body>
+</html>
