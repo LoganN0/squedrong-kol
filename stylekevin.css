@@ -36,20 +36,24 @@ form>*{
     padding-bottom: 4px;
 }
 .main-a-propos{
+    display: flex;
+    flex-direction:column;
     text-align: left;
-    margin-left: 320px;
-    margin-right: 349px;
+    width: 990px;
+    margin-left: 260px;
     font-family: 'Montserrat', sans-serif;
 }
 .titre1-a-propos{
     text-align: center;
     font-family: 'Abril Fatface', sans-serif;
+    color: rgb(0, 0, 97);
 }
 .titre2-a-propos{
     text-align: center;
     margin-bottom: 15px;
     margin-top: 15px;
-    font-family: 'Abril Fatface', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 97);
 }
 li{margin-bottom: 5px;
     margin-left: 10px;
@@ -68,4 +72,16 @@ text-align: center;
     height: 2px;
     width: 2px;
     margin-top: 60px;
+}
+.MLT-a-propos{
+    width: 140px;
+    margin-left: 388px;
+
+}
+.TLM-a-propos{
+   
+    margin-left: 150px;
+    height: 2px;
+    width: 2px;
+    margin-top: 15px;
 }
