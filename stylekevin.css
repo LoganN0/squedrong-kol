@@ -1,3 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.logo {
+    width:120px;
+    
+    
+}
+header {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 25%;
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    position: absolute;
+    right: 40%;
+    /* overflow: hidden; */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 9px;
+}
+
+.navbar {
+    margin-left: 25%;
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+}
+
+.navbar-apropos {
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+#blog-navbar {
+    color: blue;
+}
+
+
+
 .main-contact{
     text-align: left;
     margin-left: 35%;
@@ -7,17 +56,24 @@
     border-radius: 7px;
     box-shadow: 0px 12px 30px grey;
 }
+body {
+    margin: 10px;
+    border: 2px solid black ;
+    height: 1000px;
+    border-radius: 0px;
+    box-shadow: -1px -1px 13px rgb(156, 155, 155);
+    background-color: white;;
+
+     }
+
 .titre1-contact{
     text-align: center;
     margin-bottom: 40px;
     font-family: 'Abril Fatface', sans-serif;
 }
 form{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+   
 }
 form>*{
     margin-bottom: 7px;
@@ -26,11 +82,11 @@ form>*{
     text-align: center;
 }
 .element-contact{
-    text-align: left;
-    margin-left: 75px;
+    margin-left: 50px;
+    
 }
 .submit-contact{
-    margin-left: 160px;
+    margin-left: 200px;
     margin-right: 160px;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -59,7 +115,7 @@ text-align: center;
 }
 .MLT-contact{
     width: 140px;
-    margin-left: 388px;
+    margin-left: 370px;
 
 }
 .TLM-contact{
@@ -68,4 +124,23 @@ text-align: center;
     height: 2px;
     width: 2px;
     margin-top: 60px;
+}
+
+
+#Prenom {
+    margin-left: 20px;
+    width: 256px;
+}
+#Nom {
+    margin-left: 45px;
+ width: 256px;
+}
+#Email {
+    margin-left: 40px;
+    width: 255px;
+}
+
+textarea {
+    margin-left: 50px;
+    width: 350px;
 }

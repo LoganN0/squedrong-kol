@@ -7,12 +7,14 @@
 
 .logo {
     width:120px;
+    
+    
 }
 header {
     display: flex;
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 13%;
+    margin-left: 25%;
     
 }
 
@@ -78,7 +80,7 @@ main {
 .details02 {
     color: #3c0da4;
     margin-left: 360px;
-    font-family: 'Abril FatFace';
+    font-family: 'Montserrat', sans-serif;
     
 }
 
@@ -93,7 +95,7 @@ main {
 .detailso3 {
     color: #3c0da4;
     margin-left: 360px;
-    font-family: 'Abril FatFace';
+    font-family: 'Montserrat', sans-serif;
     
 }
 
@@ -116,7 +118,7 @@ main {
     float: left;
     color: #d45574;
     margin-left: 360px;
-    font-size: 30px; 
+    font-size: 25px; 
     font-family: 'Montserrat', sans-serif;
     
     
@@ -135,7 +137,7 @@ body {
     border: 2px solid black ;
     height: 2800px;
     border-radius: 0px;
-   box-shadow: -1px -1px 13px rgb(156, 155, 155);
+    box-shadow: -1px -1px 13px rgb(156, 155, 155);
     
     
 }

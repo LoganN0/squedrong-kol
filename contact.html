@@ -32,20 +32,20 @@
         </nav>
 
     </header>
-    
+    <br><br>
 <main class="main-contact">
 <h1 class="titre1-contact">CONTACT</h1>
-<form action="mailto:votreemail@gmail.com">
-<label for="Prenom" class="element-contact">Prénom: <input type="text" minlength="2" maxlength="20" placeholder="Votre prénom" size="33px" required></label><br>
-<label for="Nom" class="element-contact">Nom: <input type="text" minlength="2" maxlength="20" placeholder="Votre nom" size="36px" required></label><br>
-<label for=Email" class="element-contact">Email: <input type="email" placeholder="Votre email" size="35px" required></label><br>
-<label for="Commentaires"><Textarea cols="40" rows="6" wrap="soft" placeholder="Ecrire un commentaire" required></Textarea></label> <br>
+<form method="GET" action="mailto:votreemail@gmail.com">
+<label for="Prenom" class="element-contact">Prénom:</label> <input type="text" id="Prenom" minlength="2" maxlength="20" placeholder="Votre prénom" size="33" required><br><br>
+<label for="Nom" class="element-contact">Nom: </label>  <input type="text" id="Nom" minlength="2" maxlength="20" placeholder="Votre nom" size="36" required><br><br>
+<label for="Email" class="element-contact">Email: </label> <input type="Email" id="Email" placeholder="Votre email" size="35" required><br><br>
+<label for="Commentaires"></label><Textarea id="Commentaires" cols="40" rows="6" wrap="soft" placeholder="Écrire un commentaire" required></Textarea> 
 <button type="submit" class="submit-contact">Envoyer</button>
 </form>
 </main>
-    <button class="TLM-contact" onclick="window.location.href='/action_page.php'"><img class="MLT-contact" src="images/Capture d'écran 2023-04-25 113423.png"></button> 
-    <button class="TLM-contact" onclick="window.location.href='/action_page.php'"><img class="MLT-contact" src="images/Capture d'écran 2023-04-25 113432.png"></button>
-    <button class="TLM-contact" onclick="window.location.href='/action_page.php'"><img class="MLT-contact" src="images/Capture d'écran 2023-04-25 113447.png"> </button>
+    <button class="TLM-contact" onclick="window.location.href='/action_page.php'"><img alt="logo twitter" class="MLT-contact" src="images/icon-twitter.png"></button> 
+    <button class="TLM-contact" onclick="window.location.href='/action_page.php'"><img alt="logo linkedin" class="MLT-contact" src="images/icon-linkedin.png"></button>
+    <button class="TLM-contact" onclick="window.location.href='/action_page.php'"><img alt="logo medium" class="MLT-contact" src="images/icon-medium.png"> </button>
 
 </body>
 </html>
