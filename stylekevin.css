@@ -27,12 +27,45 @@ form>*{
 }
 .element-contact{
     text-align: left;
-margin-left: 75px;
+    margin-left: 75px;
+}
+.submit-contact{
+    margin-left: 160px;
+    margin-right: 160px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 .main-a-propos{
-text-align: left;
-margin-left: 320px;
-margin-right: 220px;
+    text-align: left;
+    margin-left: 320px;
+    margin-right: 349px;
+    font-family: 'Montserrat', sans-serif;
+}
+.titre1-a-propos{
+    text-align: center;
+    font-family: 'Abril Fatface', sans-serif;
+}
+.titre2-a-propos{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: 'Abril Fatface', sans-serif;
+}
+li{margin-bottom: 5px;
+    margin-left: 10px;
+}
+.bouton-a-propos{
+text-align: center;
+}
+.MLT-contact{
+    width: 140px;
+    margin-left: 388px;
 
-
+}
+.TLM-contact{
+   
+    margin-left: 150px;
+    height: 2px;
+    width: 2px;
+    margin-top: 60px;
 }
