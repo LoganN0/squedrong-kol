@@ -7,7 +7,7 @@ header {
     display: flex;
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 18%;
+    margin-left: 14%;
 }
 
 nav {
@@ -22,7 +22,7 @@ nav {
 }
 
 .navbar {
-    margin-left: 25%;
+    margin-left: 36%;
     color: rgb(87, 87, 87);
     text-decoration: none;
 }
