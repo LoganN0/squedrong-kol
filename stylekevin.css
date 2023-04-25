@@ -1,21 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-    
-}
-
-
 .logo {
     width:120px;
-    
-    
 }
+
 header {
     display: flex;
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
     margin-left: 25%;
-    
 }
 
 nav {

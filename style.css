@@ -15,7 +15,7 @@ nav {
     flex-direction: row;
     align-self: center;
     position: absolute;
-    right: 40%;
+    right: 30%;
     /* overflow: hidden; */
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -23,6 +23,205 @@ nav {
 
 .navbar {
     margin-left: 36%;
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+}
+
+.navbar-apropos {
+    margin-left: 15%;
+    margin-right: 7%;
+}
+
+#blog-navbar {
+    color: blue;
+}
+
+main {
+    background-color: white;
+}
+
+/* page a propos + contact */
+.logo {
+    width:120px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 25%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    position: absolute;
+    right: 40%;
+    /* overflow: hidden; */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 9px;
+}
+
+.navbar {
+    margin-left: 25%;
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+}
+
+.navbar-apropos {
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+#blog-navbar {
+    color: blue;
+}
+
+
+
+.main-contact{
+    text-align: left;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 40px;
+    background-color: rgba(206, 183, 183, 0.673);
+    border-radius: 7px;
+    box-shadow: 0px 12px 30px grey;
+}
+body {
+    margin: 10px;
+    border: 2px solid black ;
+    height: 1000px;
+    border-radius: 0px;
+    box-shadow: -1px -1px 13px rgb(156, 155, 155);
+    background-color: white;;
+
+     }
+
+.titre1-contact{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Abril Fatface', sans-serif;
+}
+form{
+    font-family: 'Montserrat', sans-serif;
+   
+}
+form>*{
+    margin-bottom: 7px;
+}
+.bouton-contact{
+    text-align: center;
+}
+.element-contact{
+    margin-left: 50px;
+    
+}
+.submit-contact{
+    margin-left: 200px;
+    margin-right: 160px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.main-a-propos{
+    display: flex;
+    flex-direction:column;
+    text-align: left;
+    width: 990px;
+    margin-left: 260px;
+    font-family: 'Montserrat', sans-serif;
+}
+.titre1-a-propos{
+    text-align: center;
+    font-family: 'Abril Fatface', sans-serif;
+    color: rgb(0, 0, 97);
+}
+.titre2-a-propos{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 97);
+}
+li{margin-bottom: 5px;
+    margin-left: 10px;
+}
+.bouton-a-propos{
+text-align: center;
+}
+.MLT-contact{
+    width: 140px;
+    margin-left: 370px;
+
+}
+.TLM-contact{
+   
+    margin-left: 150px;
+    height: 2px;
+    width: 2px;
+    margin-top: 60px;
+}
+
+
+#Prenom {
+    margin-left: 20px;
+    width: 256px;
+}
+#Nom {
+    margin-left: 45px;
+ width: 256px;
+}
+#Email {
+    margin-left: 40px;
+    width: 255px;
+}
+
+textarea {
+    margin-left: 50px;
+    width: 350px;
+}
+.MLT-a-propos{
+    width: 140px;
+    margin-left: 388px;
+}
+
+.TLM-a-propos{
+   
+    margin-left: 150px;
+    height: 2px;
+    width: 2px;
+    margin-top: 15px;
+}
+
+/* page post */
+.logo {
+    width:120px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 25%;
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    position: absolute;
+    right: 40%;
+    /* overflow: hidden; */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 9px;
+}
+
+.navbar {
+    margin-left: 25%;
     color: rgb(87, 87, 87);
     text-decoration: none;
 }
@@ -38,4 +237,207 @@ nav {
 
 main {
     background-color: white;
+}
+
+   
+   
+
+
+
+.laptop {
+    display: flex;
+    margin:auto;
+    width: 800px;
+}
+.detailso1 {
+    
+    color: #d45574;
+    margin-left: 360px;
+    font-family: 'Abril FatFace';
+    
+    
+    
+}
+
+.oatext1 {
+    
+    text-align: justify;
+    margin-left: 360px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.details02 {
+    color: #3c0da4;
+    margin-left: 360px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.oatext2 {
+    
+    text-align: justify;
+    margin-left: 360px;
+    font-size: 15px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.detailso3 {
+    color: #3c0da4;
+    margin-left: 360px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.oatext3 {
+    text-align: justify;
+    margin-left: 360px;
+    font-size: 15px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.illuazor {
+    float: right;
+    width: 290px;
+    margin-right: 350px;
+   
+ }
+.proposoa {
+    display: flex;
+    float: left;
+    color: #d45574;
+    margin-left: 360px;
+    font-size: 25px; 
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+.oauteur {
+    float: left;
+    text-align: justify;
+    margin-left: 360px;
+    font-size: 12px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 10px;
+    border: 2px solid black ;
+    height: 2800px;
+    border-radius: 0px;
+    box-shadow: -1px -1px 13px rgb(156, 155, 155);
+    
+    
+}
+.MLT {
+    width: 140px;
+    margin-left: 200px;
+
+}
+.TLM {
+   
+    margin-left: 150px;
+    height: 2px;
+    width: 2px;
+    margin-top: 60px;
+}
+
+/* page accueil */
+header {
+    margin-bottom: 2%;
+    font-size: 9px;
+}
+
+body {
+    font-size: 16px;
+}
+
+.logo {width: 120px;}
+
+.presentation-box-home-page {
+    display: flex;
+}
+
+.text-presentation-home-page {
+    margin-left: 16%;
+    margin-right: 8%;
+}
+
+.welcome-title-home-page {
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(202, 101, 118);
+}
+
+.welcome-subtitle-home-page {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3%;
+}
+
+.welcome-text-home-page {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.welcome-image-home-page {
+    width: 300px;
+    height: 300px;
+    margin-top: -2%;
+    margin-right: 17%;
+}
+
+.buttons-zone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -4%;
+}
+
+.button-link {
+    height: 40px;
+    width: 130px;
+    margin: auto;
+    display: flex;
+    background-color: rgb(78, 190, 237);
+    border-style: none;
+    transition: .2s ease-in-out;
+}
+
+.imageHomeMac {
+    width: 450px;
+    height: 316px;
+}
+
+.imageHomePc {
+    width: 450px;
+}
+
+.main-grid-home-page {
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4%;
+    column-gap: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-image-home-page {color: rgb(202, 101, 118);}
+
+.link-image-home-page {
+    color: rgb(202, 101, 118);
+    text-decoration: none;
+}
+
+.link-image-home-page:hover {
+    text-decoration: underline;
+}
+
+.image {
+    margin-left: 32vh;
+    margin-right: 30%;
+    margin-bottom: -10%;
+}
+
+.image2 {
+    margin-right: 36%;
 }
