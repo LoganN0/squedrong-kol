@@ -7,18 +7,20 @@ header {
     display: flex;
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 14%;
+    /* margin-left: 14%; */
+    justify-content: space-between;
 }
 
 nav {
     display: flex;
     flex-direction: row;
     align-self: center;
-    position: absolute;
-    right: 30%;
+    position:  absolute;
     /* overflow: hidden; */
     white-space: nowrap;
     text-overflow: ellipsis;
+    right: 30%;
+    float: right;
 }
 
 .navbar {
@@ -41,40 +43,6 @@ main {
 }
 
 /* page a propos + contact */
-.logo {
-    width:120px;
-}
-
-header {
-    display: flex;
-    flex-direction: row;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 25%;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    position: absolute;
-    right: 40%;
-    /* overflow: hidden; */
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    font-size: 9px;
-}
-
-.navbar {
-    margin-left: 25%;
-    color: rgb(87, 87, 87);
-    text-decoration: none;
-}
-
-.navbar-apropos {
-    margin-left: 15%;
-    margin-right: 10%;
-}
-
 #blog-navbar {
     color: blue;
 }
@@ -90,15 +58,17 @@ nav {
     border-radius: 7px;
     box-shadow: 0px 12px 30px grey;
 }
+
 body {
     margin: 10px;
-    border: 2px solid black ;
+    border: 2px solid black;
     height: 1000px;
     border-radius: 0px;
     box-shadow: -1px -1px 13px rgb(156, 155, 155);
     background-color: white;;
-
-     }
+    padding-left: 10%;
+    padding-right: 69%;
+}
 
 .titre1-contact{
     text-align: center;
@@ -196,41 +166,6 @@ textarea {
 }
 
 /* page post */
-.logo {
-    width:120px;
-}
-
-header {
-    display: flex;
-    flex-direction: row;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 25%;
-    
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    position: absolute;
-    right: 40%;
-    /* overflow: hidden; */
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    font-size: 9px;
-}
-
-.navbar {
-    margin-left: 25%;
-    color: rgb(87, 87, 87);
-    text-decoration: none;
-}
-
-.navbar-apropos {
-    margin-left: 15%;
-    margin-right: 10%;
-}
-
 #blog-navbar {
     color: blue;
 }
@@ -324,7 +259,7 @@ main {
 
 body {
     margin: 10px;
-    border: 2px solid black ;
+    border: 2px solid black;
     height: 2800px;
     border-radius: 0px;
     box-shadow: -1px -1px 13px rgb(156, 155, 155);
@@ -348,10 +283,12 @@ body {
 header {
     margin-bottom: 2%;
     font-size: 9px;
+    margin-right: 20%;
 }
 
 body {
     font-size: 16px;
+    padding-left: 20%;
 }
 
 .logo {width: 120px;}
@@ -361,8 +298,7 @@ body {
 }
 
 .text-presentation-home-page {
-    margin-left: 16%;
-    margin-right: 8%;
+    margin-right: 38.5vh;
 }
 
 .welcome-title-home-page {
@@ -377,13 +313,13 @@ body {
 
 .welcome-text-home-page {
     font-family: 'Montserrat', sans-serif;
+    width: 150%;
 }
 
 .welcome-image-home-page {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     margin-top: -2%;
-    margin-right: 17%;
 }
 
 .buttons-zone {
@@ -398,7 +334,7 @@ body {
     width: 130px;
     margin: auto;
     display: flex;
-    background-color: rgb(78, 190, 237);
+    background-color: white;
     border-style: none;
     transition: .2s ease-in-out;
 }
@@ -417,7 +353,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 4%;
-    column-gap: 30px;
+    column-gap: 22vh;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -433,11 +369,17 @@ body {
 }
 
 .image {
-    margin-left: 32vh;
-    margin-right: 30%;
+    /* margin-left: 32vh; */
+    /* margin-right: 30%; */
     margin-bottom: -10%;
 }
 
 .image2 {
-    margin-right: 36%;
+    /* margin-right: 36%; */
+}
+
+.button-image {
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
 }
